@@ -1,0 +1,7 @@
+{
+    "autoload": {
+        "classmap": [
+            "wpa28/provider"
+        ]
+    }
+}
