@@ -55,7 +55,6 @@ class DB extends PDO {
         }
         self::$_instance->table_name = $table_name;
         self::$_instance->sql = "";
-        self::$_instance->where_status = false;
         self::$_instance->where = "";
         return self::$_instance;
     }
